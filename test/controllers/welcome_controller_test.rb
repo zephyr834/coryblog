@@ -1,9 +1,17 @@
-require 'test_helper'
+require "test_helper"
 
-class WelcomeControllerTest < ActionController::TestCase
-  test "should get index" do
-    get :index
-    assert_response :success
+describe "WelcomeController" do
+  describe "GET :index" do
+    before do
+      get :index
+    end
+
+    it "renders welcome/index" do
+      must_render_template "welcome/index"
+    end
+
+    it "responds with success" do
+      must_respond_with :success
+    end
   end
-
 end
