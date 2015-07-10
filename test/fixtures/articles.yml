@@ -1,10 +1,10 @@
 # Read about fixtures at
 # http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
-one:
-  title: MyString
-  body: MyText
+article_one:
+  title: "Cool Beans"
+  body: "I like to party"
 
-two:
-  title: MyString
-  body: MyText
+article_two:
+  title: "Bottle-Nose Dolphin"
+  body: "Just keep swimming"
