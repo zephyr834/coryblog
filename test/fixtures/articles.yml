@@ -1,10 +1,19 @@
 # Read about fixtures at
 # http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+<% 15.times do |n| %>
+  article_<%= n %>:
+    id: <%= "#{n}"%>
+    title: <%= "article#{n}" %>
+    body: <%= "article#{n} super muscular body" %>
+<% end %>
 
-article_one:
+
+article_16:
+  id: 16
   title: "Cool Beans"
   body: "I like to party"
 
-article_two:
+article_17:
+  id: 17
   title: "Bottle-Nose Dolphin"
   body: "Just keep swimming"

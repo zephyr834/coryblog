@@ -3,7 +3,7 @@ require "test_helper"
 describe Article do
 
   it "must be valid" do
-    article = articles(:article_one)
+    article = articles(:article_1)
     value(article).must_be :valid?
   end
 
