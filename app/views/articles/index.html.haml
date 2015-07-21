@@ -1,0 +1,18 @@
+%h1 Listing Articles
+
+%table
+    %tr
+        %th Title
+        %th Body
+    %tr
+
+    - @articles.each do |article|
+        %tr
+            %td
+                = article.title
+            %td
+                = article.body
+    %end
+
+%p
+    = link_to 'New article', new_article_path
