@@ -7,7 +7,6 @@
     body: <%= "article#{n} super muscular body" %>
 <% end %>
 
-
 article_16:
   id: 16
   title: "Cool Beans"
